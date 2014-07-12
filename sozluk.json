@@ -1,0 +1,10 @@
+{"table" : "SOZLUK", "columns" : [
+                                  {"column" : ["ENG", "STRING"], "validators" : ["PK", "NOT NULL"]} ,
+                                  {"column" : ["TRK", "STRING"], "validators" : ["DF DENEME","CH LENGHT GT 10"]},
+                                  {"column" : ["USR", "STRING"], "validators" : ["DF user"]},
+                                  {"column" : ["CRT_TAR","DATE"], "validators" : ["DF sysdate"]},
+								  {"column" : ["UPT_TAR","DATE"], "validators" : ["DF sysdate"]},
+								  {"column" : ["SYN_ID","NUMBER"], "validators":["FK SOZLUK ID"]} 
+								  merhaba Dünya4
+                               ]
+}
